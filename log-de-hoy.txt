@@ -1,0 +1,25 @@
+maiarakaki@Maites-MacBook-Air desafios [master]% git log
+commit 3011ed4cb56505d83255e6be6b3d2ee610a6892f (HEAD -> master, origin/master)
+Author: Maite Arakaki <maite.arakaki@gmail.com>
+Date:   Thu Jun 15 22:12:58 2023 -0300
+
+    updated README.md
+
+commit 28301bc7d49f8f3cb1bffcd87a6db7d5faba920a
+Author: Maite Arakaki <maite.arakaki@gmail.com>
+Date:   Thu Jun 15 22:06:14 2023 -0300
+
+    updated README.md
+
+commit d782325b4bd27c29db557741f6abd9ae6a6e40cb
+Author: Maite Arakaki <maite.arakaki@gmail.com>
+Date:   Thu Jun 15 21:57:40 2023 -0300
+
+    improved README.md
+
+commit 3200866d3a27ca34f53e44f3b479ad8e77b0a85c
+Author: Maite Arakaki <maite.arakaki@gmail.com>
+Date:   Thu Jun 15 21:41:56 2023 -0300
+
+    first commit
+(END)
