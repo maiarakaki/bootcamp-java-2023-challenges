@@ -1,0 +1,9 @@
+desde el branch custom-navbar del repo website en el que estoy trabajando hago un stash:
+    website [feature/custom-navbar]% git stash --include-untracked 
+(incluyo untracked por las dudas de que haya creado archivos nuevos en el proceso)
+
+luego salto al branch master y borro el archivo status.js:
+    website [feature/custom-navbar]% git checkout master
+    website [master]% git rm status.js
+
+
