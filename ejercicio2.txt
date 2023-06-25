@@ -1,0 +1,25 @@
+Desde local
+#1 me paro en la rama correspondiente, si no lo estaba ya
+git checkout front-react
+#2 Asumiendo que esta es una feature que se desprendió de una rama dev hago un pull de dev para traerme los cambios. 
+    git pull origin/dev
+    (Si dev no existe y esta rama se considera como dev, hago un pull de master)
+#3 resolver conflictos, si los hubiere
+#4 git add .
+#5 git commit -m"nueva interfaz React.js
+#6 git push
+
+Desde github
+#7 creo un PR dev <- front-react
+
+#8 una vez aprobado y mergeado, eliminar front-react de remoto y local
+
+Creo una rama para el nuevo release
+En local 
+#9 git checkout dev
+#10 git checkout -b release/x.x.x
+#11 realizadas las pruebas de QA, hago un commit y creao un tag con tag -a vx.x.x -m"v x.x.x"
+
+Desde github
+#7 creo un PR master <- release/x.x.x
+Una vez aprobado y mergeado quedan listos los cambios en producción.
