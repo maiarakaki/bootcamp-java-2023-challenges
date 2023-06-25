@@ -2,8 +2,16 @@ desde el branch custom-navbar del repo website en el que estoy trabajando hago u
     website [feature/custom-navbar]% git stash --include-untracked 
 (incluyo untracked por las dudas de que haya creado archivos nuevos en el proceso)
 
-luego salto al branch master y borro el archivo status.js:
+luego salto al branch master, borro el archivo status.js y subo los cambios:
     website [feature/custom-navbar]% git checkout master
-    website [master]% git rm status.js
+    website [master]% rm status.js
+    website [master]% git add .
+    website [master]% git commit -m"removed status.js"
+    website [master]% git push
+
+finalmente vuelvo a la rama feature/custom-navbar y recupero los archivos del stash para seguir trabajando:
+    website [master]% git checkout feature/custom-navbar
+    website [feature/custom-navbar]% git stash pop
+
 
 
