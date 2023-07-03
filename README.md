@@ -14,3 +14,4 @@ Proyecto dedicado a publicar los desafíos del Bootcamp.
 
 ### Tecnologías utilizadas
 * git
+* html
