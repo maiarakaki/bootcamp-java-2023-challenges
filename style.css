@@ -1,28 +1,78 @@
+:root {
+    /*fuentes*/
+    font-size: 33.33px;
+    --headings-font:"MuseoModerno", sans-serif;
+    --body-font:"Asap", sans-serif;
+    /* colores */
+    --primary-color: #0a2ff1;
+    --secondary-color: #8a9af1;
+    --background-color: #edf7ff;
+    --body-font-color:#04146c;
+}
+
 *{
     box-sizing: border-box;
     margin: 0 auto;
-    background-color: #edf7ff;
+}
+
+body{
+    border-top: 10px solid var(--secondary-color);
+    color: var(--body-font-color);
+    background-color: var(--background-color);
+}
+
+header{
+    margin-top:2.5rem;
+    margin-bottom:2.5rem;
 }
 
 main{
-    border-top: 5px solid #0a2ff1;
-    font-family:"Asap", sans-serif;
+    font-family: var(--body-font);
 }
 
 .container{
     margin: 5% 30% 5% 10%;
 }
 
-h1,h3,footer{
-    font-family:'MuseoModerno', sans-serif;
+p{
+    margin-top:1.5em;
+    line-height: 1.2em;
+}
+
+#more-info-sect{
+    margin-top:2.5rem;
+}
+
+.bold-h{
+    font-family:var(--headings-font);
     font-weight: bold;
 }
 
-h1,h2,h3{
+.headding{
     color: #0a2ff1;
 }
 
 footer{
-    font-size: 198px;
-    color:#8a9af1;
+    font-size: 5.9rem;
+    color:var(--secondary-color);
+}
+
+h1{
+    font-size:3.52rem;
+    line-height: 1em;
+}
+
+h2{
+    font-size: 1.52rem;
+    font-family: var(--body-font);
+    font-weight: 400;
+}
+
+h3{
+    font-size:1.45rem;
+}
+
+section li{
+    font-weight: bold;
+    line-height: 2em;
 }
