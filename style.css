@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: #edf7ff;
+}
+
+main{
+    border-top: 5px solid #0a2ff1;
+}
+
+.container{
+    margin: 5% 30% 5% 10%;
+}
+
+h1,h2,h3{
+    color: #0a2ff1;
+}
