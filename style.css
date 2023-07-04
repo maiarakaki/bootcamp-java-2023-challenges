@@ -6,12 +6,23 @@
 
 main{
     border-top: 5px solid #0a2ff1;
+    font-family:"Asap", sans-serif;
 }
 
 .container{
     margin: 5% 30% 5% 10%;
 }
 
+h1,h3,footer{
+    font-family:'MuseoModerno', sans-serif;
+    font-weight: bold;
+}
+
 h1,h2,h3{
     color: #0a2ff1;
+}
+
+footer{
+    font-size: 198px;
+    color:#8a9af1;
 }
