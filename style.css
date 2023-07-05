@@ -13,3 +13,29 @@
     font-size: 30px;
     --title-size: 78px;
 }
+
+*{
+    box-sizing: border-box;
+    margin: 0 left;
+}
+
+body {
+    color: var(--main-color);
+}
+
+.container{
+    width: 55%;
+}
+
+h1{
+    font-size: var(--title-size);
+}
+
+.highlighted{
+    background-color: var(--highlight-color);
+}
+
+.container > img {
+    width: 50%;
+    background-image: url(/assets/fondo.JPG);
+}
