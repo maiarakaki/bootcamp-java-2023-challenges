@@ -1,18 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+/* No encontré Source Sans Variable en Google Fonts, se llama Source Sans 3 */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700;900&display=swap');
 
 :root {
-    font-family: 'Poppins', sans-serif;
-    font-size: 32px;
-    color: #0a2ff1;
+    /* fonts */
+    font-family: 'Source Sans 3', sans-serif;
+    /* font sizes */
+    --disclaimer-size: 24px;
+    --body-size: 26px;
+    --title-size: 88px;
+    --highlight-size: 38px;
+    /* colors */
+    --primary-color: #04146c;
+    --secondary-color: #edf7ff;
+    --alt-font-color: #04146c;
 }
 
 *{
     box-sizing: border-box;
-    text-align: center;
+    margin: 0 auto;
 }
 
 img {
-    width:100px; 
-    vertical-align: middle; 
-    margin-left: 30px;
+    width:600px; 
+    /* vertical-align: middle; 
+    margin-left: 30px; */
+}
+
+main {
+    width:50%;
 }
