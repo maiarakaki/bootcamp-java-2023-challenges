@@ -1,35 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap');
 
 :root{
-    font-size: 58px;
-    --font-family:"Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    --semibold: 600;
+    --black: 900;
+    font-size: 48px;
 }
 
 *{
     box-sizing: border-box;
     margin: 0 auto;
 }
+
 body{
-    font-family: var(--font-family);
     text-align: center;
     border: 1px solid black;
+    font-weight: var(--black);
     width: 80%;
 }
+
+strong{
+    font-weight: var(--black);
+    font-size: 60px;
+}
+
+h1{
+    font-size: 197px;
+}
+
 
 #friday{
     display: block;
     font-size: 217px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
 }
 
 .black{
     background-color: black;
     color:white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 66px;
 }
 
-h1{
-    font-size: 111px;
+.semibold {
+    font-weight: var(--semibold);
 }
 
 h2{
@@ -38,11 +52,9 @@ h2{
     padding-bottom: 1rem;
 }
 
-#discounts{
-    font-size: 60px;
-}
 
 footer{
     padding-top: 1rem;
     padding-bottom: 1rem;
+    font-size: 58px;
 }
