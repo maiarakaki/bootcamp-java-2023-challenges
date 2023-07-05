@@ -5,6 +5,8 @@
     --semibold: 600;
     --black: 900;
     font-size: 48px;
+    /* font color */
+    --blue-color: #0a2ff1;
 }
 
 *{
@@ -20,7 +22,6 @@ body{
 
 strong{
     font-weight: var(--black);
-    font-size: 60px;
 }
 
 h1{
@@ -30,15 +31,14 @@ h1{
 
 #friday{
     display: block;
-    font-size: 217px;
 }
 
 .black{
-    background-color: black;
-    color:white;
+    background-color: white;
+    color:black;
     padding-top: 1em;
     padding-bottom: 1em;
-    font-size: 66px;
+    font-size: 217px;
 }
 
 .semibold {
@@ -56,4 +56,17 @@ footer{
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-size: 58px;
+}
+
+.blue{
+    color: var(--blue-color);
+}
+
+.highlight{
+    background-color: black;
+    color: white;
+}
+
+#discounts > .highlight {
+    font-size: 60px;
 }
