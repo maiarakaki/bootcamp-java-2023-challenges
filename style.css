@@ -6,9 +6,9 @@
     font-family: 'Source Sans 3', sans-serif;
     /* font sizes */
     --disclaimer-size: 24px;
-    --body-size: 26px;
+    --h3-size: 26px;
     --title-size: 88px;
-    --highlight-size: 38px;
+    --h2-size: 38px;
     /* colors */
     --primary-color: #04146c;
     --secondary-color: #edf7ff;
