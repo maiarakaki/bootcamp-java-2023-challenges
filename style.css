@@ -6,6 +6,11 @@
     color: #0a2ff1;
 }
 
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
 img {
     width:100px; 
     vertical-align: middle; 
