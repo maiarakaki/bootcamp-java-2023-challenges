@@ -43,3 +43,12 @@ h2{
 p{
     font-size: var(--body-size);
 }
+
+section{
+    display:flex;
+}
+
+.icon{
+    width: 50px;
+    align-self: flex-start;
+}
