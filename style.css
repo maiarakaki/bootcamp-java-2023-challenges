@@ -20,7 +20,7 @@
 
 * {
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0;
 }
 
 body{
@@ -28,9 +28,16 @@ body{
     font-weight: var(--font-body);
 }
 
+main{
+    max-width: 1768px;
+    margin-left: 5%;
+    margin-top: 3%
+}
+
 h1 {
     font-size: var(--title-size);
     font-weight: var(--font-title);
+    margin-bottom: 20px;
 }
 
 
@@ -38,17 +45,21 @@ h2{
     color: var(--headings-color);
     font-size: var(--heading-size);
     font-weight: var(--font-headings);
+    text-transform: uppercase;
 }
 
 p{
     font-size: var(--body-size);
+    margin: 0 0 0 70px;
+    width: 40%;
 }
 
 section{
-    display:flex;
+    margin-top: 15px;
 }
 
 .icon{
-    width: 50px;
-    align-self: flex-start;
+    width: 55px;
+    vertical-align: middle;   
+    margin-right: 15px;
 }
