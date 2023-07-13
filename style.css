@@ -46,20 +46,15 @@ input, button{
 
 .login-container{
     border: 1px solid lightblue;
-    width: 50%;
+    width: 580px;
+    height: 360px;
+    padding-top: 20px;
 }
 
 .login-container hr{
     width: 500px;
     margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-.login-container a{
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    color: var(--secondary-color);
+    margin-top: 15px;
 }
 
 .login-container form input, .login-container form button{
@@ -71,7 +66,7 @@ input, button{
 }
 
 .login-container input{
-    font-size: 1 rem;
+    font-size: 1rem;
     color: var(--tertiary-color);
 }
 
@@ -82,3 +77,15 @@ input, button{
     border-style:none;
     border: 1px solid black;
 }
+
+.help-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.help-container a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    line-height:40px;
+} 
