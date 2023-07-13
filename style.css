@@ -45,7 +45,8 @@ img{
 .btn{
     margin-bottom: 10px;
     margin-top: 30px;
-    padding: 10px;
+    padding: 10px; /* padding de acuerdo con el pdf, sin embargo para mí el botón sin padding se parece
+                        mucho más al modelo provisto*/
     background-color: var(--button-background);
     border-style: none;
     color:white;
