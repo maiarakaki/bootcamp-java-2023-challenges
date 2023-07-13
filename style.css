@@ -1,6 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+
+:root{
+    font-family: 'Mulish', sans-serif;
+    font-size: calc(14 * 96px / 72);
+
+    /* font sizes */
+    --title-size: calc(18 * 96px / 72);
+    --button-font-size: calc(15 * 96px / 72);
+
+    /* colors */
+    --primary-color: #04146c;
+    --secondary-color:#0a2ff1;
+    --tertiary-color: #414166;
+}
+
+
 *{
     box-sizing: border-box;
     margin: 0 auto;
+}
+
+h1{
+    font-weight: bold;
+    font-size: var(--title-size);
 }
 
 input, button{
