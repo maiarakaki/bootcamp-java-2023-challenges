@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Mulish";
+    src: 
+        local("Mulish"),
+        url(./assets/ej-1-Mulish/Mulish-VariableFont_wght.ttf) format("truetype");
+    font-weight: 400 700;
+}
+
+:root {
+    font-family:"Mulish";
+}
