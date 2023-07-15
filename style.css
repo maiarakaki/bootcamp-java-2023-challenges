@@ -2,10 +2,37 @@
     font-family: "Mulish";
     src: 
         local("Mulish"),
-        url(./assets/ej-1-Mulish/Mulish-VariableFont_wght.ttf) format("truetype");
+        url(./assets/fonts/Mulish-VariableFont_wght.ttf) format("truetype");
     font-weight: 400 700;
 }
 
 :root {
     font-family:"Mulish";
+}
+
+*{
+    margin:auto;
+}
+
+body{
+    background-image: url(./assets/images/M4-desafio1-fondo.png);
+}
+
+.form-container{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./assets/images/M4-desafio1-fondo-form.png);
+}
+
+#login{
+    text-align: center;
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    padding:20px;
+}
+
+.form-field{
+    display:block;
 }
