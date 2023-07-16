@@ -22,6 +22,20 @@
     font-weight: 700;
 }
 
+:root{
+    font-family: "Roboto";
+    font-size: calc(19 * 96px / 72);
+
+    --heading-font-size: calc(44 * 96px / 72);
+    --button-font-size: calc(20 * 96px / 72);
+    --action-call-font-size: calc(18 * 96px / 72);
+
+    /* colors */
+    --primary-color: #0a2ff1;
+    --secondary-color: #000000;
+    --background-color: #15163d
+}
+
 *{
     font-family: "Roboto";
 }
