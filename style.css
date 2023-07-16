@@ -33,24 +33,79 @@
     /* colors */
     --primary-color: #0a2ff1;
     --secondary-color: #000000;
-    --background-color: #15163d
+    --footer-background-color: #15163d;
 }
 
 *{
     font-family: "Roboto";
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 main{
     width:80%;
-    padding: 10px;
+    padding: 0 10px 10px 10px;
+}
+
+.top-background{
+    background-image: url(./assets/images/M4\ -\ Desafío3_img-header.png);
+    width: 100%;
+    background-size: contain;
+    height: 800px;
+    background-repeat: no-repeat;
+}
+
+header, p{
+    margin-bottom: 3%;
+}
+
+#call-to-action p{
+    margin-bottom: 2%;
+}
+
+.heading{
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.text-body{
+    max-width: 80%;
+}
+
+h1{
+    font-family: "Roboto Slab";
+    font-size: var(--heading-font-size);
+    text-align: center;
+}
+
+h2{
+    font-size: 1rem;
+    /*BORRAR ESTA REGLA UNA VEZ IMPORTADAS LAS FONTS DE GOOGLE*/
+    font-family: "Roboto Bold";
 }
 
 button{
     width:300px;
     height: 50px;
     margin-bottom: 10px;
+    font-size: var(--button-font-size);
+    background-color: var(--primary-color);
+    color:white;
+}
+
+#call-to-action{
+    font-size: var(--action-call-font-size);
+    margin-top: 5%;
 }
 
 footer{
-    width: 100px;
+    width: 100vw;
+    height: 15px;
+    background-color: var(--footer-background-color);
 }
+
+.img-container img {
+    margin:auto;
+    width: 100%;
+}
+
