@@ -8,8 +8,8 @@
 
 :root {
     font-family:"Mulish";
-    --input-font-size: calc(17 * 96 / 72);
-    --heading-font-size: calc(24.48 * 96 / 72);
+    --input-font-size: calc(17 * 96px / 72);
+    --heading-font-size: calc(24.48 * 96px / 72);
 
     --heading-color: #04146c;
     --placeholder-color: #414166;
@@ -39,13 +39,28 @@ body{
     background-color: white;
     width: 600px;
     height: 400px;
-    padding:20px;
+    padding:40px 20px 20px 20px;
+}
+
+#login h1{
+    font-size: var(--heading-font-size);
+    color: var(--heading-font-size);
+    margin-bottom: 3%;
 }
 
 .form-field{
+    margin-top:2%;
     display:block;
     width:100%;
-    border: 1px solid black;
+    border: 1px solid var(--placeholder-color);
+    font-size: var(--input-font-size);
+    font-family: "Mulish";
+    padding: 10px;
+}
+
+.btn{
+    background-color: var(--button-color);
+    color:white;
 }
 
 .fields-container{
