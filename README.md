@@ -17,3 +17,4 @@ Proyecto dedicado a publicar los desafíos del Bootcamp.
 * HTML
 * CSS
 * Google Fonts
+* Flex

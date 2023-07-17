@@ -1,39 +1,15 @@
-/* RECORDAR REEMPLAZAR LOS FONT FACE POR GOOGLE IMPORTS */
-
-@font-face {
-    font-family: "Roboto";
-    src: 
-        local("Roboto"),
-        url(./assets/fonts/Roboto/Roboto-Regular.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "Roboto Bold";
-    src: 
-        local("Roboto Bold"),
-        url(./assets/fonts/Roboto/Roboto-Bold.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "Roboto Slab";
-    src: 
-        local("Roboto Slab"),
-        url(./assets/fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf) format("truetype");
-    font-weight: 700;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
 
 :root{
-    font-family: "Roboto";
-    font-size: calc(19 * 96px / 72);
+    font-family: "Roboto", sans-serif;
+    font-size: calc(26 * 96px / 72);
+    --nav-font-size: (18 * 96px / 72);
+    --title-font-size:96px;
 
-    --heading-font-size: calc(44 * 96px / 72);
-    --button-font-size: calc(20 * 96px / 72);
-    --action-call-font-size: calc(18 * 96px / 72);
 
     /* colors */
     --primary-color: #0a2ff1;
-    --secondary-color: #000000;
-    --footer-background-color: #15163d;
+    --secondary-color:#04146c;
 }
 
 *{
@@ -42,70 +18,24 @@
     box-sizing: border-box;
 }
 
-main{
-    width:80%;
-    padding: 0 10px 10px 10px;
-}
-
-.top-background{
-    background-image: url(./assets/images/M4\ -\ Desafío3_img-header.png);
+nav{
     width: 100%;
-    background-size: contain;
-    height: 800px;
-    background-repeat: no-repeat;
+    font-size: var(--nav-font-size);
+}
+.navlink{
+    text-decoration: none;
 }
 
-header, p{
-    margin-bottom: 3%;
+#WHlogo{
+    width: 5%;
 }
 
-#call-to-action p{
-    margin-bottom: 2%;
-}
-
-.heading{
-    color: var(--primary-color);
-    font-weight: 700;
-}
-
-.text-body{
-    max-width: 80%;
+.active{
+    font-weight: bold;
 }
 
 h1{
-    font-family: "Roboto Slab";
-    font-size: var(--heading-font-size);
-    text-align: center;
+    font-family: "Roboto Slab", serif;
+    font-size: var(--title-font-size);
+    color: var(--primary-color);
 }
-
-h2{
-    font-size: 1rem;
-    /*BORRAR ESTA REGLA UNA VEZ IMPORTADAS LAS FONTS DE GOOGLE*/
-    font-family: "Roboto Bold";
-}
-
-button{
-    width:300px;
-    height: 50px;
-    margin-bottom: 10px;
-    font-size: var(--button-font-size);
-    background-color: var(--primary-color);
-    color:white;
-}
-
-#call-to-action{
-    font-size: var(--action-call-font-size);
-    margin-top: 5%;
-}
-
-footer{
-    width: 100vw;
-    height: 15px;
-    background-color: var(--footer-background-color);
-}
-
-.img-container img {
-    margin:auto;
-    width: 100%;
-}
-
