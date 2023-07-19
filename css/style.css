@@ -80,3 +80,24 @@ header{
 .img-container img{
     width:inherit;
 }
+
+#contact-form label{
+    display:block;
+}
+
+.mandatory{
+    color:red;
+    font-weight: 400;
+}
+
+input, textarea{
+    width: 500px;
+}
+
+input{
+    height: 50px;
+}
+
+textarea{
+    height: 100px;
+}
