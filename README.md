@@ -1,3 +1,5 @@
+> :warning: **El PDF decá ejercicio 2 pero mandaba a crear una carpeta llamada Ejercicio 3
+
 ## Challenge Repository
 #### Bootcamp Java EducaciónIT-CUVL 2023
 
