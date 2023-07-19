@@ -3,9 +3,8 @@
 :root{
     font-family: "Roboto", sans-serif;
     font-size: calc(26 * 96px / 72);
-    --nav-font-size: (18 * 96px / 72);
+    --nav-font-size: calc(18 * 96px / 72);
     --title-font-size:96px;
-
 
     /* colors */
     --primary-color: #0a2ff1;
@@ -14,20 +13,41 @@
 
 *{
     font-family: "Roboto";
-    margin: 0 auto;
+    margin: 0;
     box-sizing: border-box;
+}
+
+body{
+    width:100vw;
+    border-top: 30px solid var(--primary-color);
+    display:flex;
+    flex-direction: column;
 }
 
 nav{
     width: 100%;
     font-size: var(--nav-font-size);
+    display:flex;
+    margin: 30px 40px;
+    align-items:center;
+}
+
+nav a:visited{
+    color: var(--secondary-color);
 }
 .navlink{
     text-decoration: none;
+    margin: 40px;
+    font-size: var(--nav-font-size);
+    text-transform: uppercase;
 }
 
-#WHlogo{
-    width: 5%;
+.logo-container{
+    width: 6%;
+}
+
+.logo-container img{
+    width: 5vw;
 }
 
 .active{
@@ -38,4 +58,25 @@ h1{
     font-family: "Roboto Slab", serif;
     font-size: var(--title-font-size);
     color: var(--primary-color);
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color:var(--secondary-color);
+}
+
+header{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.img-container{
+    margin-top: 40px;
+    width: 100%;
+}
+
+.img-container img{
+    width:inherit;
 }
