@@ -5,10 +5,15 @@
     font-size: calc(26 * 96px / 72);
     --nav-font-size: calc(18 * 96px / 72);
     --title-font-size:96px;
-
+    --form-title-size:calc(34 * 96px / 72);
+    --form-font-size: calc(23 * 96px / 72);
+    --form-btn-font-size: calc(24 * 96px / 72);
+    
     /* colors */
     --primary-color: #0a2ff1;
     --secondary-color:#04146c;
+    --reset-btn-background:#f98500;
+    --send-btn-background:#2c00cc;
 }
 
 *{
@@ -83,6 +88,7 @@ header{
 
 #contact-form label{
     display:block;
+    margin-top:30px;
 }
 
 .mandatory{
@@ -90,14 +96,57 @@ header{
     font-weight: 400;
 }
 
-input, textarea{
-    width: 500px;
+.form-container{
+    font-size: var(--form-font-size);
+    color: var(--secondary-color);
+    margin-left: 40px;
 }
 
-input{
-    height: 50px;
+.form-container h1{
+    font-size: var(--form-title-size);
+    margin-bottom: 30px;
 }
+
+form{
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+input, textarea{
+    height: 50px;
+    margin-top: 10px;
+    width: 500px;
+    border: 3px solid var(--primary-color);
+    font-size:var(--form-font-size);
+}
+
+/* 
+POR QUE ESTO NO FUNCIONA?
+input[placeholder]{
+    color:#f98500
+} */
+
 
 textarea{
     height: 100px;
+}
+
+.button-container .btn{
+    font-family: 'Roboto Slab', serif;
+    font-size: var(--form-btn-font-size);
+    font-weight: bold;
+    color:white;
+    border-radius: 5px;
+    border-style: none;
+    max-width: 170px;
+    margin-right: 50px;
+    margin-top:30px;
+}
+
+.btn[type="reset"]{
+    background-color: var(--reset-btn-background);
+}
+
+.btn[type="submit"]{
+    background-color: var(--send-btn-background);
 }
