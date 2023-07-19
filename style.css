@@ -5,6 +5,11 @@
     --p-size:24px;
 }
 
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
 main, div{
     padding: 1em;
 }
@@ -19,6 +24,7 @@ main{
     display: flex;
     justify-content: space-evenly;
 }
+
 
 img{
     width: 25%;
