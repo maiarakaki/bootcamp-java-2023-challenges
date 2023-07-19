@@ -1,4 +1,4 @@
-> :warning: **El PDF decá ejercicio 2 pero mandaba a crear una carpeta llamada Ejercicio 3
+> :warning: **Este ejercicio no está incluído en el pdf pero sí están su referencia y sus recursos con los del ejercico 2.
 
 ## Challenge Repository
 #### Bootcamp Java EducaciónIT-CUVL 2023
