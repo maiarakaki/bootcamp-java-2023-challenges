@@ -1,11 +1,5 @@
-@font-face {
-    font-family: "Mulish";
-    src: 
-    local("Mulish"),
-    url(./assets/fonts/Mulish-VariableFont_wght.ttf) format("truetype");
-    font-weight: 400 700;
-}
-/*RECORDAR CAMBIAR EL FONT FACE POR EL IMPORT DE GOOGLE FONTS ANTES DE ENTREGAR*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+
 
 :root {
     font-family:"Mulish";
