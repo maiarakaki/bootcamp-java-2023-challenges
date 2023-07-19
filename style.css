@@ -1,26 +1,4 @@
-/* RECORDAR REEMPLAZAR LOS FONT FACE POR GOOGLE IMPORTS */
-
-@font-face {
-    font-family: "Roboto";
-    src: 
-        local("Roboto"),
-        url(./assets/fonts/Roboto/Roboto-Regular.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "Roboto Bold";
-    src: 
-        local("Roboto Bold"),
-        url(./assets/fonts/Roboto/Roboto-Bold.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "Roboto Slab";
-    src: 
-        local("Roboto Slab"),
-        url(./assets/fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf) format("truetype");
-    font-weight: 700;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
 
 :root{
     font-family: "Roboto";
@@ -80,8 +58,6 @@ h1{
 
 h2{
     font-size: 1rem;
-    /*BORRAR ESTA REGLA UNA VEZ IMPORTADAS LAS FONTS DE GOOGLE*/
-    font-family: "Roboto Bold";
 }
 
 button{
@@ -108,4 +84,3 @@ footer{
     margin:auto;
     width: 100%;
 }
-
