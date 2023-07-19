@@ -14,6 +14,7 @@
     --secondary-color:#04146c;
     --reset-btn-background:#f98500;
     --send-btn-background:#2c00cc;
+    --footer-color: #3957f1;
 }
 
 *{
@@ -70,6 +71,7 @@ h1{
     flex-direction: column;
     align-items: center;
     color:var(--secondary-color);
+    min-width: 570px;
 }
 
 header{
@@ -149,4 +151,45 @@ textarea{
 
 .btn[type="submit"]{
     background-color: var(--send-btn-background);
+}
+
+#why-us{
+    display: flex;
+    max-width: 80%;
+
+    background-image: url(/assets/images/M5-Desafio3-img.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 50px;
+}
+
+
+#why-us h1{
+    /* color:var(--secondary-color); la referencia tiene
+    el hexa del primary color pero la imagen tiene el color
+    secundario*/
+    font-size: var(--form-title-size);
+}
+
+#why-us .text-container{
+    max-width: 50%;
+    margin: 50px;
+    padding-right: 60px;
+}
+
+#why-us h2, #why-us p{
+    font-size: var(--nav-font-size);
+}
+
+footer .logo-container{
+    width: 100vw;
+    height: 100px;
+    background-color: var(--footer-color);
+    display: flex;
+}
+
+footer .logo-container img{
+    width: 10%;
+    margin-left: 13%;
 }
