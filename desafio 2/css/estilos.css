@@ -9,3 +9,21 @@ h1{
     font-size:60px;
     font-weight: 900;
 }
+
+section{
+    max-width: 80vw;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#section-one{
+    background-color: orange;
+}
+
+#section-two{
+    background-color: palegoldenrod;
+}
+
+#section-three{
+    background-color: pink;
+}
