@@ -1,2 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
 
+:root{
+    font-size: calc(24 * 96px/72);
+    --title-size:calc(68 * 96px/72);
+    --h2-size:calc(36 * 96px/72);
+    --primary-color:#0a2ff1;
+}
+
+.title{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    color: var(--primary-color);
+}
