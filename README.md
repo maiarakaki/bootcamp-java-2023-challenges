@@ -1,5 +1,3 @@
-> :warning: **Este ejercicio no está incluído en el pdf pero sí están su referencia y sus recursos con los del ejercico 2.
-
 ## Challenge Repository
 #### Bootcamp Java EducaciónIT-CUVL 2023
 
