@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+:root{
+    font-family: 'Mulish', sans-serif;
+    
+    --lg-title-size: calc(40 * 96px/72);
+    --lg-h2-size: calc(21 * 96px/72);
+
+    --primary-color:#3957f1;
+    --secondary-color:#15163d;
+}
+
+
+.blue{
+    font-family: 'Mulish', sans-serif;
+    font-size: var(--lg-title-size);
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.card-h2 {
+    font-family: 'Mulish', sans-serif;
+    color: var(--secondary-color);
+    font-weight: 400;
+    font-size:1rem;
+}
+
+.card {
+    box-shadow: 5px 5px 5px rgba(15, 15, 15, 0.541);
+}
+
+@media screen and (max-width:993px){
+    .blue{
+        font-size: 4rem;
+    }
+
+    .card-h2 {
+        font-size: 2rem;
+    }
+} 
+
+.row{
+    max-height: 80px;
+}
