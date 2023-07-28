@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
 
 :root{
+    /* font-family: 'Mulish', sans-serif !important; */
     font-size: calc(24 * 96px/72);
     --title-size:calc(68 * 96px/72);
     --h2-size:calc(36 * 96px/72);
@@ -12,3 +13,28 @@
     font-weight: 700;
     color: var(--primary-color);
 }
+
+.card-container{
+    font-family: 'Mulish', sans-serif;
+    color: red;
+    min-height: 350px;
+}
+
+.card-container img{
+    width: 100%;
+    position:relative;
+    z-index: -1;
+}
+
+.card-text-container{
+    width: 100%;
+    /* position:absolute; */
+    margin-top: -20%;
+    z-index: 1;
+}
+
+.card-text-container h2{
+    font-size:var(--h2-size);
+    font-weight: 700;
+}
+
