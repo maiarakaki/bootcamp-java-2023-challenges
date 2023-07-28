@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&display=swap');
 
+@keyframes slideIn{
+    from {
+        margin-left: 100%;
+    }
+
+    to{
+        margin-left:0;
+    }
+}
+
 :root{
     font-family: 'Dongle', sans-serif;
     font-size: 18px;
@@ -11,9 +21,15 @@ h1{
 }
 
 section{
-    max-width: 80vw;
+    max-width: 60vw;
+    height: 100px;
     padding: 20px;
     margin-bottom: 20px;
+    overflow: hidden;
+    margin-left: 105%;
+    animation-name: slideIn;
+    animation-duration:5s;
+    animation-fill-mode: forwards;
 }
 
 #section-one{
@@ -22,8 +38,10 @@ section{
 
 #section-two{
     background-color: palegoldenrod;
+    animation-delay:5s;
 }
 
 #section-three{
     background-color: pink;
+    animation-delay:10s;
 }
