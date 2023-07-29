@@ -27,15 +27,3 @@ h3{
     font-size: 1rem;
     color:var(--secondary-color);
 }
-
-p{
-    font-family: "Mulish", sans-serif;
-}
-
-strong{
-    color:var(--primary-color);
-}
-
-#compu{
-    height:50vh;
-}
