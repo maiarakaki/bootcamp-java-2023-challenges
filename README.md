@@ -1,5 +1,5 @@
-**Warning**
-No estoy segura de a qué se refiere el p.8 "Sumamos el hecho de que sugerimos quitar el padding en 5 desde Bootstrap cuando la pantalla es inferior a 768px."
+> **Warning**
+> No estoy segura de a qué se refiere el p.8 "Sumamos el hecho de que sugerimos quitar el padding en 5 desde Bootstrap cuando la pantalla es inferior a 768px."
 
 ## Challenge Repository
 #### Bootcamp Java EducaciónIT-CUVL 2023

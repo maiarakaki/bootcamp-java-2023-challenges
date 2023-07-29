@@ -35,3 +35,7 @@ p{
 strong{
     color:var(--primary-color);
 }
+
+#compu{
+    height:50vh;
+}
