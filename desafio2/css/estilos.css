@@ -27,18 +27,11 @@ h3{
     font-size: 1rem;
     color:var(--secondary-color);
 }
-.profile-pic{
-    width: 75%;
-}
 
-button{
-    border: 3px solid var(--primary-color);
-    background-color: transparent;
+p{
     font-family: "Mulish", sans-serif;
-    font-size: 1rem;
 }
 
-.profile p{
-    padding-left:5%;
-    padding-right:5%;
+strong{
+    color:var(--primary-color);
 }
