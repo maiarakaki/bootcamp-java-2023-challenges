@@ -15,7 +15,4 @@ Proyecto dedicado a publicar los desafíos del Bootcamp.
 ### Tecnologías utilizadas
 * git
 * HTML
-* CSS
-* Google Fonts
-* Flex
-* Bootstrap
+* javascript
